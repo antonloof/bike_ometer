@@ -113,7 +113,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 2150 4100 2350
 $Comp
-L good_things:LCD-S2X1C50TR LCD1
+L kicad-rescue:LCD-S2X1C50TR-good_things LCD1
 U 1 1 60C40D31
 P 9500 1500
 F 0 "LCD1" H 9500 2115 50  0000 C CNN
@@ -204,7 +204,7 @@ F 3 "" H 1100 2350 50  0001 C CNN
 $EndComp
 NoConn ~ 1000 2350
 $Comp
-L Connector:USB_B_Micro J1
+L kicad-rescue:USB_B_Micro-Connector J1
 U 1 1 60BEF3CC
 P 1100 1950
 F 0 "J1" H 1157 2417 50  0000 C CNN
@@ -628,7 +628,7 @@ Wire Wire Line
 Text Label 1800 1750 0    50   ~ 0
 vbus
 $Comp
-L good_things:MIC2288YD5 U3
+L kicad-rescue:MIC2288YD5-good_things U3
 U 1 1 60CAF0CF
 P 5650 2450
 F 0 "U3" H 5650 2825 50  0000 C CNN
